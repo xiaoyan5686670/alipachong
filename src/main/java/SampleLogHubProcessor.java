@@ -66,7 +66,7 @@ public class SampleLogHubProcessor implements ILogHubProcessor {
         }
     }
 }
-
+///qxyxxxxxxxx
 class SampleLogHubProcessorFactory implements ILogHubProcessorFactory {
     public ILogHubProcessor generatorProcessor() {
         // 生成一个消费实例
