@@ -71,6 +71,11 @@ class SampleLogHubProcessorFactory implements ILogHubProcessorFactory {
     public ILogHubProcessor generatorProcessor() {
         // 生成一个消费实例
         return new SampleLogHubProcessor();
-        System.out.println("as");
+
+    }
+    public ILogHubProcessor generatorProcessor2() {
+        // 生成一个消费实例
+        return new SampleLogHubProcessor();
+
     }
 }
